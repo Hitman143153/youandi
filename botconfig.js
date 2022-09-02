@@ -6,7 +6,7 @@ module.exports = {
   SupportServer: "", // Support Server Link
   Token: process.env.Token || "", // Discord Bot Token
   ClientID: process.env.Discord_ClientID || "930690657708818433", // Discord Client ID
-  ClientSecret: process.env.Discord_ClientSecret || "Xr9B2tNfrW66Hsl5qgxWbk4-RNQwOpLc", // Discord Client Secret
+  ClientSecret: process.env.Discord_ClientSecret || "", // Discord Client Secret
   Scopes: ["identify", "guilds", "applications.commands"], // Discord OAuth2 Scopes
   ServerDeafen: true, // If you want bot to stay deafened
   DefaultVolume: 100, // Sets the default volume of the bot, You can change this number anywhere from 1 to 9007199254740991 (JS Integer limit. If you do set it to that, you're a monster.)
